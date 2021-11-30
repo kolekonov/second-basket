@@ -1,0 +1,38 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Header */
+.header{
+    width: 100%;
+    height: 50px;
+    background: blanchedalmond;
+    margin-bottom: 100px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.product__item-image img{
+    width: 100%;
+}
